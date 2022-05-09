@@ -1,0 +1,1645 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation landscape
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\lang english
+HW1
+\end_layout
+
+\begin_layout Author
+ששון שמואל למעי 
+\numeric on
+325172351
+\numeric off
+ ויצחק גרינבוים 
+\lang english
+318837317
+\end_layout
+
+\begin_layout Part*
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+Question 1.
+\end_layout
+
+\begin_layout Section*
+א
+\end_layout
+
+\begin_layout Section*
+ב
+\end_layout
+
+\begin_layout Section*
+ג
+\end_layout
+
+\begin_layout Section*
+ד
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\lang english
+Question 2
+\end_layout
+
+\begin_layout Section*
+א
+\end_layout
+
+\begin_layout Section*
+ב
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\lang english
+Question 3
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\lang english
+Question 4
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+
+\lang english
+Question 5
+\end_layout
+
+\begin_layout Section*
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsection*
+א.
+ 
+\end_layout
+
+\begin_layout Standard
+בקוד המקורי אנו בחרנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של ספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\numeric on
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של הספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועליהן אימנו את המסווג.
+ כעת בחרנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של הספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועוד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות שמכילות ספרות שאינן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועליהן אימנו את המסווג.
+\end_layout
+
+\begin_layout Standard
+שינויים בקוד:
+\end_layout
+
+\begin_layout Itemize
+מחיקת הפרמטר המיוטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+digit2
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.1.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+בבחירת שאר התמונת שינינו את התנאי כך שהן שונות מהספרה הראשונה )
+\numeric on
+0
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.2.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+הכנסנו להערה את הקוד שאמור להדפיס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות מהסטים שאנו מאמנים לפיהן.
+ ושינינו גם את הקוד כך שבסוף ידפיס רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של שגיאה.
+\end_layout
+
+\begin_layout Subsection*
+ב.
+\end_layout
+
+\begin_layout Standard
+בקבוצת האימון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+37
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובקבוצת המבדק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+142
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.2.2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ג.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Section*
+א.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 0.
+ Accuracy=99.075% (
+\series bold
+37
+\series default
+ wrong examples) Test Error: Classifier on digit: 0.
+ Accuracy=96.45% (
+\series bold
+142
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 1.
+ Accuracy=98.325% (
+\series bold
+67
+\series default
+ wrong examples) Test Error: Classifier on digit: 1.
+ Accuracy=95.675% (
+\series bold
+173
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 2.
+ Accuracy=95.325% (
+\series bold
+187
+\series default
+ wrong examples) Test Error: Classifier on digit: 2.
+ Accuracy=91.75% (
+\series bold
+330
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 3.
+ Accuracy=95.2% (
+\series bold
+192
+\series default
+ wrong examples) Test Error: Classifier on digit: 3.
+ Accuracy=91.5% (
+\series bold
+340
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 4.
+ Accuracy=96.875% (
+\series bold
+125
+\series default
+ wrong examples) Test Error: Classifier on digit: 4.
+ Accuracy=94.1% (
+\series bold
+236
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 5.
+ Accuracy=95.825% (
+\series bold
+167
+\series default
+ wrong examples) Test Error: Classifier on digit: 5.
+ Accuracy=90.25% (
+\series bold
+390
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 6.
+ Accuracy=98.05% (
+\series bold
+78
+\series default
+ wrong examples) Test Error: Classifier on digit: 6.
+ Accuracy=95.475% (
+\series bold
+181
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 7.
+ Accuracy=97.45% (
+\series bold
+102
+\series default
+ wrong examples) Test Error: Classifier on digit: 7.
+ Accuracy=94.1% (
+\series bold
+236
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 8.
+ Accuracy=92.675% (
+\series bold
+293
+\series default
+ wrong examples) Test Error: Classifier on digit: 8.
+ Accuracy=89.15% (
+\series bold
+434
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 9.
+ Accuracy=94.325% (
+\series bold
+227
+\series default
+ wrong examples) Test Error: Classifier on digit: 9.
+ Accuracy=89.925% (
+\series bold
+403
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Section*
+ב.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.2.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+הדרך שאנו מציעים היא לבנות היסטוגרמה )מטריצה של 
+\begin_inset Formula $10000x10$
+\end_inset
+
+( לכל תמונה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)מתוך ה-
+\numeric on
+10000
+\numeric off
+( 
+\numeric on
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אופציות של ספרות אפשרויות.
+ כזכור נשתמש ב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המסווגים מסעיף ב.
+ נכפיל את המטריצה 
+\begin_inset Formula $A_{newtest}$
+\end_inset
+
+באחד אחד מהמסווגים, נקבל ווקטור שנפעיל עליו את הפעולות 
+\begin_inset Formula $sign$
+\end_inset
+
+.
+ כעת לכל אינדקס שבו יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור מספר מסווג כלשהו(, נסמן בהיסטוגרמה עבור האינדקס )שמייצג תמונה( ובעמודה
+ של הספרה שהמסווג מציין.
+ לאחר מכן נעבור על ההיסטוגרמה ולכל תמונה אם יש רק עמודה אחת בה יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז אנו יודעים לאיזו ספרה צריך לסווג את התמונה הזו.
+\end_layout
+
+\begin_layout Subsection*
+א.
+ 
+\end_layout
+
+\begin_layout Standard
+יש לנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5060
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות )
+\numeric on
+50
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחוזים( שלא קיבלנו לגביהן תשובה חד משמעית.
+ 
+\end_layout
+
+\begin_layout Standard
+הדרך שנציע לפתרון.
+ ניצור מטריצה של 
+\begin_inset Formula $785x10x10$
+\end_inset
+
+ אשר מייצגת לכל 
+\begin_inset Formula $i,j$
+\end_inset
+
+ וקטור עמודה שהוא המסווג בין שני המספרים.
+\end_layout
+
+\begin_layout Standard
+כעת עבור כל תמונה שבהיסטוגרמה שלה נראה שיש לה בעמודות שמייצגות את הספרות
+ כמה אופציות לייצוג, נשווה לפי מסווג בין ספרה לספרה )כפי שהוצג בתרגול וכזכור
+ עם דיוק גבוה יותר( נעבור עבור כל שתי אופציות אפשריות עד שנישאר עם אחת בודדת
+ שהיא הנכונה.
+\end_layout
+
+\begin_layout Subsection*
+ב.
+ 
+\end_layout
+
+\begin_layout Standard
+בדרך החדשה זיהינו לא נכון רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחוזים )כאלף תמונות מתוך עשרת האלפים( [אשר מתוכן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+85
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בכלל לא סווגו במסווג הראשוני של קדם סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לאף ספרה].
+\end_layout
+
+\begin_layout Subsection*
+ג.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.3.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

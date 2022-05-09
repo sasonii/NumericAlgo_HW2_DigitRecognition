@@ -9,31 +9,31 @@ function x = clause_1_general(digit1, digit2)
     load('mnist.mat');
     
     % ------- Little bit of exploration to feel the data -------------
-    whos
-    disp(training); 
-    disp(size(training.images));
-    imagesc(training.images(:,:,10)); axis image; colormap(gray(256)); 
-    title(['This image label is ',num2str(training.labels(10))]);
+%     whos
+%     disp(training); 
+%     disp(size(training.images));
+%     imagesc(training.images(:,:,10)); axis image; colormap(gray(256)); 
+%     title(['This image label is ',num2str(training.labels(10))]);
     % ----------------------------------------------------------------
     
     imagesPerDigit1 = training.images(:,:,training.labels == digit1);
     imagesPerDigit2 = training.images(:,:,training.labels == digit2);
     
-    figure(1); 
-    for k=1:1:100
-        imagesc(imagesPerDigit1(:,:,k));
-        colormap(gray(256))
-        axis image; axis off; 
-        pause(0.1);
-    end
-    
-    figure(1); 
-    for k=1:1:100
-        imagesc(imagesPerDigit2(:,:,k));
-        colormap(gray(256))
-        axis image; axis off; 
-        pause(0.1);
-    end
+%     figure(1); 
+%     for k=1:1:100
+%         imagesc(imagesPerDigit1(:,:,k));
+%         colormap(gray(256))
+%         axis image; axis off; 
+%         pause(0.1);
+%     end
+%     
+%     figure(1); 
+%     for k=1:1:100
+%         imagesc(imagesPerDigit2(:,:,k));
+%         colormap(gray(256))
+%         axis image; axis off; 
+%         pause(0.1);
+%     end
     
     %% ======================= Create A, b ============================
     A_all = zeros(2*N,28^2);
@@ -70,15 +70,15 @@ function x = clause_1_general(digit1, digit2)
     acc=mean(predC == trueC)*100;
     disp(['Accuracy=',num2str(acc),'% (',num2str((1-acc/100)*N),' wrong examples)']); 
     
-    %% ================== Show the Problematic Images ====================
-    
-    error = find(predC~=trueC); 
-    for k=1:1:length(error)
-        figure(2);
-        imagesc(reshape(A_test(error(k),1:28^2),[28,28]));
-        colormap(gray(256))
-        axis image; axis off; 
-        title(['problematic digit number ',num2str(k),' :',num2str(A_test(error(k),:)*x)]); 
-        pause;  
-    end
+%     %% ================== Show the Problematic Images ====================
+%     
+%     error = find(predC~=trueC); 
+%     for k=1:1:length(error)
+%         figure(2);
+%         imagesc(reshape(A_test(error(k),1:28^2),[28,28]));
+%         colormap(gray(256))
+%         axis image; axis off; 
+%         title(['problematic digit number ',num2str(k),' :',num2str(A_test(error(k),:)*x)]); 
+%         pause;  
+%     end
 end
