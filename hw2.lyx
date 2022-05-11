@@ -77,10 +77,20 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "C:/Users/Lam/Downloads/MacrosStandard(1).lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 
 \lang english
-HW1
+HW2
 \end_layout
 
 \begin_layout Author
@@ -103,19 +113,408 @@ Question 1.
 \end_layout
 
 \begin_layout Section*
-א
+א 
+\end_layout
+
+\begin_layout Standard
+נשים לב שווקטור השארית צריך להיות מאונך לטרנספוס של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\lang hebrew
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+A^{T}Ax & =A^{T}b\Rightarrow A^{T}(Ax-b)=0\Rightarrow A^{T}r=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נבדוק אילו מאונכים:
+\end_layout
+
+\begin_layout Standard
+נקבל שווקטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\numeric on
+1
+\numeric off
+( מאונך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}=2-1-2+1=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 2 & 5 & 10\end{pmatrix}\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}=2-2-10+10=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל גם שווקטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\numeric on
+3
+\numeric off
+( מאונך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}-5\\
+5\\
+1\\
+-1
+\end{pmatrix}=-5+5+1-1=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 2 & 5 & 10\end{pmatrix}\begin{pmatrix}-5\\
+5\\
+1\\
+-1
+\end{pmatrix}=-5+10+5-10=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עם זאת ווטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אינו מאונך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}0\\
+1\\
+4\\
+9
+\end{pmatrix}>0
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 ב
 \end_layout
 
+\begin_layout Standard
+נדרוש:
+\begin_inset Formula 
+\begin{align*}
+A^{T}\begin{pmatrix}c\\
+d\\
+e\\
+f
+\end{pmatrix} & =0\Rightarrow\begin{cases}
+\text{\ensuremath{c+d+e+f=0}}\\
+c+2d+5e+10f=0
+\end{cases}\\
+\Rightarrow & \begin{cases}
+c=-d-e-f\\
+c=-2d-5e-10f
+\end{cases}\\
+\Rightarrow & \boxed{\begin{cases}
+d=-4e=9f\\
+c=3e+8f
+\end{cases}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 ג
 \end_layout
 
+\begin_layout Standard
+עמודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן נוכל להשתמש בנוסחה:
+\begin_inset Formula 
+\begin{align*}
+\xc x & =(\xt AA)^{-1}\xt Ab\\
+\xc x & =\begin{pmatrix}4 & 18\\
+18 & 130
+\end{pmatrix}^{-1}\begin{pmatrix}1 & 1 & 1 & 1\\
+1 & 2 & 5 & 10
+\end{pmatrix}\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\boxed{\begin{pmatrix}3\\
+2
+\end{pmatrix}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
-ד
+ד 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xc r=A\xc x-b=\xt{\begin{pmatrix}1 & 1 & 1 & 1\\
+1 & 2 & 5 & 10
+\end{pmatrix}}\begin{pmatrix}3\\
+2
+\end{pmatrix}-\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\begin{pmatrix}5\\
+7\\
+13\\
+23
+\end{pmatrix}-\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2=3\cdot-2+8\cdot1=-6+8=2\Rightarrow\checked
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+-1 & =-4\cdot-2-9\cdot1\\
+= & 8-9=-1\Rightarrow\checked
+\end{align*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -137,8 +536,213 @@ Question 2
 א
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=(x_{1}-1)^{2}+(2x_{1}+x_{2}-3)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial f(x_{1},x_{2})}{\partial x_{1}} & =2(x_{1}-1)+2(2x_{1}+x_{2}-3)\cdot2=0\\
+= & 10\xl x1+4\xl x2-14=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial f(x_{1},x_{2})}{\partial x_{2}} & =2(2x_{1}+x_{2}-3)=0\\
+= & 4\xl x1+2\xl x2-6=0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\Rightarrow & \xl x2=3-2\xl x1\\
+\Rightarrow & 2\xl x1-2=0\\
+\Rightarrow & \xl x1=1\Rightarrow\xl x2=1
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xc x=\begin{pmatrix}1\\
+1
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 ב
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\begin{pmatrix}1 & 0\\
+2 & 1
+\end{pmatrix},b=\begin{pmatrix}1\\
+3
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עמודות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן נשתמש בנוסחה: 
+\begin_inset Formula $\xc x=(\xt AA)^{-1}\xt Ab\underset{A\ \text{הפיכה}}{\underbrace{=}}A^{-1}b$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xc x=\frac{1}{1}\begin{pmatrix}1 & 0\\
+-2 & 1
+\end{pmatrix}\begin{pmatrix}1\\
+3
+\end{pmatrix}=\begin{pmatrix}1\\
+1
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ג
+\end_layout
+
+\begin_layout Standard
+למעשה הראינו זאת בסעיף קודם בכך שהשתמשנו בכך ש 
+\begin_inset Formula $A$
+\end_inset
+
+בת
+\begin_inset Quotes erd
+\end_inset
+
+ל וריבועית ולכן לכל וקטור 
+\begin_inset Formula $b$
+\end_inset
+
+ קיים רק פתרון יחיד.
+ ובכך פתרנו את מערכת המשוואות 
+\begin_inset Formula $Ax=b$
+\end_inset
+
+וראינו שיש פתרון יחיד.
+\end_layout
+
+\begin_layout Section*
+ד
+\end_layout
+
+\begin_layout Standard
+לא, כתבנו את המשפט המוכיח זאת בסעיף ג.
+ )
+\begin_inset Formula $A$
+\end_inset
+
+בת
+\begin_inset Quotes erd
+\end_inset
+
+ל וריבועית ולכן לכל וקטור 
+\begin_inset Formula $b$
+\end_inset
+
+ קיים רק פתרון יחיד(.
 \end_layout
 
 \begin_layout Standard
@@ -156,6 +760,48 @@ Question 2
 Question 3
 \end_layout
 
+\begin_layout Section*
+א 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ב
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ג
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 
 \lang english
@@ -169,6 +815,139 @@ Question 3
 
 \lang english
 Question 4
+\end_layout
+
+\begin_layout Section*
+א 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl PAA=A(\xt AA)^{-1}\xt AA=A(\xt AA)^{-1}\xt{(A}A)=AI=A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ב
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl PA\xl PA=A(\xt AA)^{-1}\underset{I}{\underbrace{\xt AA(\xt AA)^{-1}}}\xt A=A(\xt AA)^{-1}\xt A=\xl PA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ג
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xt{\xl PA}=\xt{(A(\xt AA)^{-1}\xt A)}\underset{\xt{(\xt AA)}=\xt AA}{\underbrace{=}}\xt{\xt A}(\xt AA)^{-1}\xt A\underset{\xt{\xt A}=A}{\underbrace{=}}A(\xt AA)^{-1}\xt A=\xl PA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ד
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl HA=I-\xl PA
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\xt{\xl HA}=\xt{(I-\xl PA)}=\xt I-\xt{\xl PA}\underset{\text{סעיף ג, \xt I=I}}{\underbrace{=}}I-\xl PA\ \blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl HA\xl HA=(I-\xl PA)(I-\xl PA)=I-2\xl PA+\xl PA\xl PA\underset{\xl PA\xl PA=\xl PA}{\underbrace{=}}I-\xl PA\ \blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=[\xl M{1\ }\xl M2]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי:
+\begin_inset Formula 
+\[
+[\xl PA\xl M{1\ }\xl{\xl PAM}2]=\xl PA[\xl M{1\ }\xl M2]=\xl PAA\underset{\text{סעיף ג}}{\underbrace{=}}A=[\xl M{1\ }\xl M2]\Rightarrow\underset{(1)}{\underbrace{\xl{\xl PAM}2=\xl M2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\xl P{\xl M2}\xl PA & =\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{\xl M2}\xl PA=\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xt{\xl PA}\xl M2)}\\
+\underset{\xt{\xl PA}=\xl PA}{\underbrace{=}} & \xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xl PA\xl M2)}\underset{(1)}{\underbrace{=}}\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xl M2)}=\xl P{\xl M2}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ו
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl H{\xl M2}\xl HA=(I-\xl P{\xl M2})(I-\xl PA)=I-\xl PA-\xl P{\xl M2}+\underset{\xl P{\xl M2}}{\underbrace{\xl P{\xl M2}\xl PA}}=I-\xl PA=\xl HA
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

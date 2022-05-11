@@ -77,10 +77,20 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "C:/Users/Lam/Downloads/MacrosStandard(1).lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 
 \lang english
-HW1
+HW2
 \end_layout
 
 \begin_layout Author
@@ -103,313 +113,247 @@ Question 1.
 \end_layout
 
 \begin_layout Section*
-א
+א 
 \end_layout
 
 \begin_layout Standard
-\align left
-
+נשים לב שווקטור השארית צריך להיות מאונך לטרנספוס של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 \lang english
-\begin_inset Formula $\begin{pmatrix}6 & 4 & 4 & -1\\
-3 & -4 & -3 & 1\\
--3 & 4 & 1 & 3\\
-3 & 2 & 2 & 2
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\underset{LU}{\underbrace{=}}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-l_{2,1} & 1 & 0 & 0\\
-l_{3,1} & l_{3,2} & 1 & 0\\
-l_{4,1} & l_{4,2} & l_{4,3} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2} & u_{1,3} & u_{1,4}\\
-0 & u_{2,2} & u_{2,3} & u_{2,4}\\
-0 & 0 & u_{3,3} & u_{3,4}\\
-0 & 0 & 0 & u_{4,4}
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\underset{First\ Row\ U}{\underbrace{=}}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-l_{2,1} & 1 & 0 & 0\\
-l_{3,1} & l_{3,2} & 1 & 0\\
-l_{4,1} & l_{4,2} & l_{4,3} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & u_{2,2} & u_{2,3} & u_{2,4}\\
-0 & 0 & u_{3,3} & u_{3,4}\\
-0 & 0 & 0 & u_{4,4}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\lang english
-\begin_inset Formula $\underset{First\ Column\ L}{\underbrace{=}}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & l_{3,2} & 1 & 0\\
-0.5 & l_{4,2} & l_{4,3} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & u_{2,2} & u_{2,3} & u_{2,4}\\
-0 & 0 & u_{3,3} & u_{3,4}\\
-0 & 0 & 0 & u_{4,4}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-L
-\begin_inset Formula $_{2}U_{2}=$
-\end_inset
-
 A
-\begin_inset Formula $_{2}-l_{1}u_{1}^{T}$
-\end_inset
+\lang hebrew
+:
+\end_layout
 
-=
-\begin_inset Formula $\begin{pmatrix}-4 & -3 & 1\\
-4 & 1 & 3\\
-2 & 2 & 2
-\end{pmatrix}-$
-\end_inset
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+A^{T}Ax & =A^{T}b\Rightarrow A^{T}(Ax-b)=0\Rightarrow A^{T}r=0
+\end{align*}
 
-
-\begin_inset Formula $\begin{pmatrix}0.5\\
--0.5\\
-0.5
-\end{pmatrix}\begin{pmatrix}4 & 4 & -1\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}-4 & -3 & 1\\
-4 & 1 & 3\\
-2 & 2 & 2
-\end{pmatrix}-\begin{pmatrix}2 & 2 & -0.5\\
--2 & -2 & 0.5\\
-2 & 2 & -0.5
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}-6 & -5 & 1.5\\
-6 & 3 & 2.5\\
-0 & 0 & 2.5
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+נבדוק אילו מאונכים:
+\end_layout
 
-\lang english
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
+\begin_layout Standard
+נקבל שווקטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\numeric on
+1
+\numeric off
+( מאונך:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}=2-1-2+1=0
+\]
+
 \end_inset
 
 
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2} & u_{1,3}\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 2 & 5 & 10\end{pmatrix}\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}=2-2-10+10=0
+\]
 
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}-6 & -5 & 1.5\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}-6 & -5 & 1.5\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}=\begin{pmatrix}1 & 0 & 0\\
--1 & 1 & 0\\
-0 & l_{3,2} & 1
-\end{pmatrix}\begin{pmatrix}-6 & -5 & 1.5\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+נקבל גם שווקטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\numeric on
+3
+\numeric off
+( מאונך:
+\end_layout
 
-\lang english
-L
-\begin_inset Formula $_{3}U_{3}=$
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}-5\\
+5\\
+1\\
+-1
+\end{pmatrix}=-5+5+1-1=0
+\]
+
 \end_inset
 
-A
-\begin_inset Formula $_{3}-l_{2}u_{2}^{T}$
-\end_inset
 
-=
-\begin_inset Formula $\begin{pmatrix}3 & 2.5\\
-0 & 2.5
-\end{pmatrix}-$
-\end_inset
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 2 & 5 & 10\end{pmatrix}\begin{pmatrix}-5\\
+5\\
+1\\
+-1
+\end{pmatrix}=-5+10+5-10=0
+\]
 
-
-\begin_inset Formula $\begin{pmatrix}-1\\
-0
-\end{pmatrix}\begin{pmatrix}-5 & 1.5\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}3 & 2.5\\
-0 & 2.5
-\end{pmatrix}-\begin{pmatrix}5 & -1.5\\
-0 & 0
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}-2 & 4\\
-0 & 2.5
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2}\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}\begin{pmatrix}-2 & 4\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-0 & 1
-\end{pmatrix}\begin{pmatrix}-2 & 4\\
-0 & u_{2,2}
-\end{pmatrix}$
-\end_inset
-
-
+עם זאת ווטור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אינו מאונך:
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{pmatrix}1 & 1 & 1 & 1\end{pmatrix}\begin{pmatrix}0\\
+1\\
+4\\
+9
+\end{pmatrix}>0
+\]
 
-\lang english
-L
-\begin_inset Formula $_{4}U_{4}=$
-\end_inset
-
-A
-\begin_inset Formula $_{4}-l_{3}u_{3}^{T}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}2.5\end{pmatrix}-$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}0\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}2.5\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-LU = 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & l_{3,2} & 1 & 0\\
-0.5 & l_{4,2} & l_{4,3} & 0
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & u_{2,2} & u_{2,3} & u_{2,4}\\
-0 & 0 & u_{3,3} & u_{3,4}\\
-0 & 0 & 0 & u_{4,4}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{U}{\underbrace{\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & -6 & -5 & 1.5\\
-0 & 0 & -2 & 4\\
-0 & 0 & 0 & 2.5
-\end{pmatrix}}}$
 \end_inset
 
 
@@ -420,26 +364,27 @@ LU =
 \end_layout
 
 \begin_layout Standard
+נדרוש:
+\begin_inset Formula 
+\begin{align*}
+A^{T}\begin{pmatrix}c\\
+d\\
+e\\
+f
+\end{pmatrix} & =0\Rightarrow\begin{cases}
+\text{\ensuremath{c+d+e+f=0}}\\
+c+2d+5e+10f=0
+\end{cases}\\
+\Rightarrow & \begin{cases}
+c=-d-e-f\\
+c=-2d-5e-10f
+\end{cases}\\
+\Rightarrow & \boxed{\begin{cases}
+d=-4e=9f\\
+c=3e+8f
+\end{cases}}
+\end{align*}
 
-\lang english
-detA = detLdetU=
-\begin_inset Formula $\begin{vmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{vmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{vmatrix}6 & 4 & 4 & -1\\
-0 & -6 & -5 & 1.5\\
-0 & 0 & -2 & 4\\
-0 & 0 & 0 & 2.5
-\end{vmatrix}=$
-\end_inset
-
-1 *6*(-6)*(-2)*2.5 = 
-\begin_inset Formula $\boxed{180}$
 \end_inset
 
 
@@ -450,171 +395,7 @@ detA = detLdetU=
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Yes, detA != 0 and therefor is non singular -> has one soltion:
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\lang english
-\begin_inset Formula $\begin{pmatrix}6 & 4 & 4 & -1\\
-3 & -4 & -3 & 1\\
--3 & 4 & 1 & 3\\
-3 & 2 & 2 & 2
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}x_{1}\\
-x_{2}\\
-x_{3}\\
-x_{4}
-\end{pmatrix}$
-\end_inset
-
-= 
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{Y}{\underbrace{\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & -6 & -5 & 1.5\\
-0 & 0 & -2 & 4\\
-0 & 0 & 0 & 2.5
-\end{pmatrix}\begin{pmatrix}x_{1}\\
-x_{2}\\
-x_{3}\\
-x_{4}
-\end{pmatrix}}}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}14\\
-7\\
-13\\
--8
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\lang english
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{Y}{\underbrace{\begin{pmatrix}y_{1}\\
-y_{2}\\
-y_{3}\\
-y_{4}
-\end{pmatrix}}}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}14\\
-7\\
-13\\
--8
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}y_{1}\\
-y_{2}\\
-y_{3}\\
-y_{4}
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\underset{\text{Hahlafa Kidmit}}{\underbrace{=}}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}14\\
-0\\
-20\\
--15
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align left
-
-\lang english
-\begin_inset Formula $\underset{Y}{\underbrace{\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & -6 & -5 & 1.5\\
-0 & 0 & -2 & 4\\
-0 & 0 & 0 & 2.5
-\end{pmatrix}\begin{pmatrix}x_{1}\\
-x_{2}\\
-x_{3}\\
-x_{4}
-\end{pmatrix}}}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}14\\
-0\\
-20\\
--15
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}x_{1}\\
-x_{2}\\
-x_{3}\\
-x_{4}
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\underset{\text{Hahlafa Ahorit}}{\underbrace{=}}$
-\end_inset
-
- 
-\begin_inset Formula $\begin{pmatrix}43/9\\
-101/6\\
--22\\
--6
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-ד
-\end_layout
-
-\begin_layout Standard
-כל איברי האלכסון של
+עמודות
 \family roman
 \series medium
 \shape up
@@ -628,34 +409,6 @@ x_{4}
 \noun off
 \color none
  
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-U
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- אינם אפסים, כמו כן לא הפעלנו פרמוטציה ולכן 
 \family default
 \series default
 \shape default
@@ -683,91 +436,82 @@ A
 \noun off
 \color none
 \lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מטריצה רגילה, לכן ניתן לפרק ל
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-LDV
-\lang hebrew
-:
+ בת
+\begin_inset Quotes erd
+\end_inset
+
+ל ולכן נוכל להשתמש בנוסחה:
+\begin_inset Formula 
+\begin{align*}
+\xc x & =(\xt AA)^{-1}\xt Ab\\
+\xc x & =\begin{pmatrix}4 & 18\\
+18 & 130
+\end{pmatrix}^{-1}\begin{pmatrix}1 & 1 & 1 & 1\\
+1 & 2 & 5 & 10
+\end{pmatrix}\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\boxed{\begin{pmatrix}3\\
+2
+\end{pmatrix}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ד 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\xc r=A\xc x-b=\xt{\begin{pmatrix}1 & 1 & 1 & 1\\
+1 & 2 & 5 & 10
+\end{pmatrix}}\begin{pmatrix}3\\
+2
+\end{pmatrix}-\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\begin{pmatrix}5\\
+7\\
+13\\
+23
+\end{pmatrix}-\begin{pmatrix}3\\
+8\\
+15\\
+22
+\end{pmatrix}=\begin{pmatrix}2\\
+-1\\
+-2\\
+1
+\end{pmatrix}
+\]
 
-\lang english
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{pmatrix}}}$
 \end_inset
 
 
-\begin_inset Formula $\underset{U}{\underbrace{\begin{pmatrix}6 & 4 & 4 & -1\\
-0 & -6 & -5 & 1.5\\
-0 & 0 & -2 & 4\\
-0 & 0 & 0 & 2.5
-\end{pmatrix}}}$
-\end_inset
+\end_layout
 
-= 
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-0.5 & 1 & 0 & 0\\
--0.5 & -1 & 1 & 0\\
-0.5 & 0 & 0 & 1
-\end{pmatrix}}}$
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2=3\cdot-2+8\cdot1=-6+8=2\Rightarrow\checked
+\]
+
 \end_inset
 
 
-\begin_inset Formula $\underset{D}{\underbrace{\begin{pmatrix}6 & 0 & 0 & 0\\
-0 & -6 & 0 & 0\\
-0 & 0 & -2 & 0\\
-0 & 0 & 0 & 2.5
-\end{pmatrix}}}$
-\end_inset
+\begin_inset Formula 
+\begin{align*}
+-1 & =-4\cdot-2-9\cdot1\\
+= & 8-9=-1\Rightarrow\checked
+\end{align*}
 
-
-\begin_inset Formula $\underset{V}{\underbrace{\begin{pmatrix}1 & \frac{2}{3} & \frac{2}{3} & \frac{-1}{6}\\
-0 & 1 & \frac{5}{6} & \frac{1.5}{-6}\\
-0 & 0 & 1 & -2\\
-0 & 0 & 0 & 1
-\end{pmatrix}}}$
 \end_inset
 
 
@@ -793,143 +537,61 @@ Question 2
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=(x_{1}-1)^{2}+(2x_{1}+x_{2}-3)^{2}
+\]
 
-\lang english
-\begin_inset Formula $\begin{pmatrix}4 & 1 & -3 & 2\\
-4 & 3 & -7 & 9\\
--4 & -1 & 1 & -4\\
--8 & -1 & 3 & -2
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\stackrel{\begin{cases}
-R2\rightarrow R2-R1 & 1\end{cases}}{\Rightarrow}\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
--4 & -1 & 1 & -4\\
--8 & -1 & 3 & -2
-\end{pmatrix}\stackrel{\begin{cases}
-R3\rightarrow R3+R1 & 2\end{cases}}{\Rightarrow}\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
--8 & -1 & 3 & -2
-\end{pmatrix}\stackrel{\begin{cases}
-R4\rightarrow R4+2R1 & 3\end{cases}}{\Rightarrow}\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 1 & -3 & 2
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial f(x_{1},x_{2})}{\partial x_{1}} & =2(x_{1}-1)+2(2x_{1}+x_{2}-3)\cdot2=0\\
+= & 10\xl x1+4\xl x2-14=0
+\end{align*}
 
-\lang english
-\begin_inset Formula $\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 1 & -3 & 2
-\end{pmatrix}\stackrel{\begin{cases}
-R4\rightarrow R4-\frac{1}{2}R2 & 4\end{cases}}{\Rightarrow}\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 0 & -1 & -1.5
-\end{pmatrix}\stackrel{\begin{cases}
-R4\rightarrow R4-\frac{1}{2}R3 & 5\end{cases}}{\Rightarrow}\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 0 & 0 & -0.5
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial f(x_{1},x_{2})}{\partial x_{2}} & =2(2x_{1}+x_{2}-3)=0\\
+= & 4\xl x1+2\xl x2-6=0
+\end{align*}
 
-\lang english
-E
-\begin_inset Formula $_{1}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
--1 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-E
-\begin_inset Formula $_{2}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-1 & 0 & 1 & 0\\
-0 & 0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-E
-\begin_inset Formula $_{3}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-2 & 0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-E
-\begin_inset Formula $_{4}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & -\frac{1}{2} & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-E
-\begin_inset Formula $_{5}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-0 & 1 & 0 & 0\\
-0 & 0 & 1 & 0\\
-0 & 0 & -\frac{1}{2} & 1
-\end{pmatrix}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\Rightarrow & \xl x2=3-2\xl x1\\
+\Rightarrow & 2\xl x1-2=0\\
+\Rightarrow & \xl x1=1\Rightarrow\xl x2=1
+\end{align*}
 
-\lang english
-L= 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-1 & 1 & 0 & 0\\
--1 & 0 & 1 & 0\\
--2 & \frac{1}{2} & \frac{1}{2} & 1
-\end{pmatrix}$
 \end_inset
 
-U=
-\begin_inset Formula $\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 0 & 0 & -0.5
-\end{pmatrix}$
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xc x=\begin{pmatrix}1\\
+1
+\end{pmatrix}
+\]
+
 \end_inset
 
 
@@ -940,7 +602,22 @@ U=
 \end_layout
 
 \begin_layout Standard
-כן,
+\begin_inset Formula 
+\[
+A=\begin{pmatrix}1 & 0\\
+2 & 1
+\end{pmatrix},b=\begin{pmatrix}1\\
+3
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עמודות
 \family roman
 \series medium
 \shape up
@@ -994,67 +671,29 @@ A
 \uwave default
 \noun default
 \color inherit
-מטריצה ריבועית שאינה סינגולרית )ניתן לראות ע
+בת
 \begin_inset Quotes erd
 \end_inset
 
-י הדטרמיננטה של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-LU
-\lang hebrew
-( ולכן ניתנת לפירוק.
+ל ולכן נשתמש בנוסחה: 
+\begin_inset Formula $\xc x=(\xt AA)^{-1}\xt Ab\underset{A\ \text{הפיכה}}{\underbrace{=}}A^{-1}b$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+\xc x=\frac{1}{1}\begin{pmatrix}1 & 0\\
+-2 & 1
+\end{pmatrix}\begin{pmatrix}1\\
+3
+\end{pmatrix}=\begin{pmatrix}1\\
+1
+\end{pmatrix}
+\]
 
-\lang english
-A = 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0 & 0\\
-1 & 1 & 0 & 0\\
--1 & 0 & 1 & 0\\
--2 & \frac{1}{2} & \frac{1}{2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}4 & 0 & 0 & 0\\
-0 & 2 & 0 & 0\\
-0 & 0 & -2 & 0\\
-0 & 0 & 0 & -0.5
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & \frac{1}{4} & \frac{-3}{4} & \frac{1}{2}\\
-0 & 1 & -2 & 3\frac{1}{2}\\
-0 & 0 & 1 & 1\\
-0 & 0 & 0 & 1
-\end{pmatrix}$
 \end_inset
 
 
@@ -1065,21 +704,24 @@ A =
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-detA = detD=
-\begin_inset Formula $\begin{vmatrix}4 & 0 & 0 & 0\\
-0 & 2 & 0 & 0\\
-0 & 0 & -2 & 0\\
-0 & 0 & 0 & -0.5
-\end{vmatrix}$
+למעשה הראינו זאת בסעיף קודם בכך שהשתמשנו בכך ש 
+\begin_inset Formula $A$
 \end_inset
 
-= 
-\begin_inset Formula $\boxed{8}$
+בת
+\begin_inset Quotes erd
 \end_inset
 
+ל וריבועית ולכן לכל וקטור 
+\begin_inset Formula $b$
+\end_inset
 
+ קיים רק פתרון יחיד.
+ ובכך פתרנו את מערכת המשוואות 
+\begin_inset Formula $Ax=b$
+\end_inset
+
+וראינו שיש פתרון יחיד.
 \end_layout
 
 \begin_layout Section*
@@ -1087,503 +729,20 @@ detA = detD=
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-A A
-\begin_inset Formula $^{-1}$
+לא, כתבנו את המשפט המוכיח זאת בסעיף ג.
+ )
+\begin_inset Formula $A$
 \end_inset
 
-= I
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-LUA
-\begin_inset Formula $^{-1}=I$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0 & 0\\
-1 & 1 & 0 & 0\\
--1 & 0 & 1 & 0\\
--2 & \frac{1}{2} & \frac{1}{2} & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{Ux=y}{\underbrace{\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 0 & 0 & -0.5
-\end{pmatrix}\begin{pmatrix}t\\
-y\\
-z\\
-w
-\end{pmatrix}}}$
-\end_inset
-
-=
-\begin_inset Formula $\underset{I_{1}}{\underbrace{\begin{pmatrix}1\\
-0\\
-0\\
-0
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-נשים לב שצירוף לינארי של עמודות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-L
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-יתן את העמודה של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-I
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-נפתור את המערכת:
-\lang english
-Ly=I
-\begin_inset Formula $_{1}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ונקבל ע
+בת
 \begin_inset Quotes erd
 \end_inset
 
-י החלפה קידמית:
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-y=
-\begin_inset Formula $\begin{pmatrix}1\\
--1\\
-1\\
-2
-\end{pmatrix}$
+ל וריבועית ולכן לכל וקטור 
+\begin_inset Formula $b$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-כעת נפתור את המערכת
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-Ux=y
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-כאשר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-x
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מייצג את העמודה הראשונה של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-A
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-על פי חוקי כפל מטריצות )צירוף לינארי של העמודות(.
- הפעם נפתור ע
-\begin_inset Quotes erd
-\end_inset
-
-י החלפה אחורית ונקבל:
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Formula $\underset{Ux=y}{\underbrace{\begin{pmatrix}4 & 1 & -3 & 2\\
-0 & 2 & -4 & 7\\
-0 & 0 & -2 & -2\\
-0 & 0 & 0 & -0.5
-\end{pmatrix}\begin{pmatrix}t\\
-y\\
-z\\
-w
-\end{pmatrix}}}$
-\end_inset
-
-=
-\begin_inset Formula $\underset{y}{\underbrace{\begin{pmatrix}1\\
--1\\
-1\\
-2
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-x= 
-\begin_inset Formula $\begin{pmatrix}t\\
-y\\
-z\\
-w
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}-\frac{1}{4}\\
-20.5\\
-3.5\\
--4
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-סיבוכיות: כפי שראינו בהרצאה, סיבוכיות תהליך החלפה קדמית או אחורית הוא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $\frac{1}{2}n^{2}$
-\end_inset
-
-.
- כאן ביצענו גם החלפה קדמית וגם אחורית ולכן התשובה היא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-
-\begin_inset Formula $\boxed{n^{2}}$
-\end_inset
-
-
+ קיים רק פתרון יחיד(.
 \end_layout
 
 \begin_layout Standard
@@ -1602,373 +761,39 @@ Question 3
 \end_layout
 
 \begin_layout Section*
-דרך א - פירוק
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-LU
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Formula $\begin{pmatrix}1 & -2 & 1\\
--2 & 8 & 4\\
-1 & 4 & 91
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2} & u_{1,3}\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & -2 & 1\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}=\begin{pmatrix}1 & 0 & 0\\
--2 & 1 & 0\\
-1 & l_{3,2} & 1
-\end{pmatrix}\begin{pmatrix}1 & -2 & 1\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-L
-\begin_inset Formula $_{3}U_{3}=$
-\end_inset
-
-A
-\begin_inset Formula $_{3}-l_{2}u_{2}^{T}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}8 & 4\\
-4 & 91
-\end{pmatrix}-$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}-2\\
-1
-\end{pmatrix}\begin{pmatrix}-2 & 1\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}8 & 4\\
-4 & 91
-\end{pmatrix}-\begin{pmatrix}4 & -2\\
--2 & 1
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}4 & 6\\
-6 & 90
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2}\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}\begin{pmatrix}4 & 6\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-\frac{3}{2} & 1
-\end{pmatrix}\begin{pmatrix}4 & 6\\
-0 & u_{2,2}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-L
-\begin_inset Formula $_{4}U_{4}=$
-\end_inset
-
-A
-\begin_inset Formula $_{4}-l_{3}u_{3}^{T}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}90\end{pmatrix}-$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}\frac{3}{2}*6\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}81\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
--2 & 1 & 0\\
-1 & \frac{3}{2} & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{U}{\underbrace{\begin{pmatrix}1 & -2 & 1\\
-0 & 4 & 6\\
-0 & 0 & 81
-\end{pmatrix}}}$
-\end_inset
-
-= 
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
--2 & 1 & 0\\
-1 & \frac{3}{2} & 1
-\end{pmatrix}}}\underset{D}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
-0 & 4 & 0\\
-0 & 0 & 81
-\end{pmatrix}}}$
-\end_inset
-
-
-\begin_inset Formula $\underset{L^{T}}{\underbrace{\begin{pmatrix}1 & -2 & 1\\
-0 & 1 & \frac{3}{2}\\
-0 & 0 & 1
-\end{pmatrix}}}$
-\end_inset
-
-=
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
--2 & 1 & 0\\
-1 & \frac{3}{2} & 1
-\end{pmatrix}}}\underset{D^{\frac{1}{2}}}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
-0 & 2 & 0\\
-0 & 0 & 9
-\end{pmatrix}}}\begin{pmatrix}1 & 0 & 0\\
-0 & 2 & 0\\
-0 & 0 & 9
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & -2 & 1\\
-0 & 1 & \frac{3}{2}\\
-0 & 0 & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\rightarrow M=$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
--2 & 2 & 0\\
-1 & 3 & 9
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-
-\begin_inset space \space{}
-\end_inset
-
-A = M M
-\begin_inset Formula $^{T}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-כמו כן נשים לב כי כן קיים פירוק מכיוון שאיברי האלכסון חיוביים )אחרת הוא
- לא היה יחיד(.
-\end_layout
-
-\begin_layout Section*
-דרך ב חישוב יעיל של צולסקי - הועבר בתרגול
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-K = 
-\begin_inset Formula $\begin{pmatrix}1 & -2 & 1\\
--2 & 8 & 4\\
-1 & 4 & 91
-\end{pmatrix}$
-\end_inset
-
-= M M
-\begin_inset Formula $^{T}$
-\end_inset
-
-= 
-\begin_inset Formula $\begin{pmatrix}m_{1,1} & 0 & 0\\
-m_{2,1} & m_{2,2} & 0\\
-m_{3,1} & m_{3,2} & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}m_{1,1} & m_{2,1} & m_{3,1}\\
-0 & m_{2,2} & m_{3,2}\\
-0 & 0 & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\end_layout
-
-\begin_layout Standard
-מציאת העמודה הראשונה:
+א 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ../../../../../../Documents/pasted2.png
-	scale 50
+	filename 3.1.png
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Section*
+ב
+\end_layout
+
 \begin_layout Standard
-במהלך החישובים נעשה כאן שימוש במשוואה שראינו בתרגול: 
-\begin_inset Formula $m_{j,i}=\frac{k_{i,j}-\underset{j=1}{\sum_{j=1}^{i-1}\underbrace{m_{i,j}^{2}}}}{m_{i,i}}$
+\begin_inset Graphics
+	filename 3.2.png
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Section*
+ג
+\end_layout
+
 \begin_layout Standard
+\begin_inset Graphics
+	filename 3.3.png
 
-\lang english
-M=
-\begin_inset Formula $\begin{pmatrix}m_{1,1} & 0 & 0\\
-m_{2,1} & m_{2,2} & 0\\
-m_{3,1} & m_{3,2} & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
--2 & m_{2,2} & 0\\
-1 & m_{3,2} & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\underset{m_{2,2}=\sqrt{k_{2,2}-m_{2,1}^{2}}}{\underbrace{=}}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
--2 & 2 & 0\\
-1 & m_{3,2} & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
--2 & 2 & 0\\
-1 & {\color{red}3} & m_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
--2 & 2 & 0\\
-1 & {\color{red}{\color{blue}{\color{blue}3}}} & {\color{red}9}
-\end{pmatrix}$
 \end_inset
 
 
@@ -1989,206 +814,67 @@ m_{3,1} & m_{3,2} & m_{3,3}
 Question 4
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../../../../../Documents/pasted3.png
-	scale 50
-
-\end_inset
-
-
+\begin_layout Section*
+א 
 \end_layout
 
 \begin_layout Standard
-
-\color blue
-הטענה אינה נכונה: דוגמה נגדית: ניתן לראות בבירור שה-
-\lang english
-trace
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-שונה )
-\numeric on
-6
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-לעומת
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-3
-\numeric off
-(.
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-A1=
-\begin_inset Formula $\begin{pmatrix}1 & 3\\
-1 & 5
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-1 & 1
-\end{pmatrix}\underset{U}{\underbrace{\begin{pmatrix}1 & 3\\
-0 & 2
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-A2=
-\begin_inset Formula $\begin{pmatrix}1 & 3\\
-0 & 2
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-0 & 1
-\end{pmatrix}\underset{U}{\underbrace{\begin{pmatrix}1 & 3\\
-0 & 2
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../../../../../../Documents/pasted4.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color blue
-הטענה נכונה: המטריצות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-L
-\begin_inset Formula $_{A},L_{B}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-הינן מכפלה של מטריצות יסודיות ומכפלה אינה משנה את מרחב השורה ולכן:
 \begin_inset Formula 
 \[
-R(U)=\underset{R(B)}{\underbrace{R(L_{B}U)}}=\underset{R(A)}{\underbrace{R(L_{A}U)}}
+\xl PAA=A(\xt AA)^{-1}\xt AA=A(\xt AA)^{-1}\xt{(A}A)=AI=A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ב
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl PA\xl PA=A(\xt AA)^{-1}\underset{I}{\underbrace{\xt AA(\xt AA)^{-1}}}\xt A=A(\xt AA)^{-1}\xt A=\xl PA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ג
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xt{\xl PA}=\xt{(A(\xt AA)^{-1}\xt A)}\underset{\xt{(\xt AA)}=\xt AA}{\underbrace{=}}\xt{\xt A}(\xt AA)^{-1}\xt A\underset{\xt{\xt A}=A}{\underbrace{=}}A(\xt AA)^{-1}\xt A=\xl PA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+ד
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\xl HA=I-\xl PA
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\xt{\xl HA}=\xt{(I-\xl PA)}=\xt I-\xt{\xl PA}\underset{\text{סעיף ג, \xt I=I}}{\underbrace{=}}I-\xl PA\ \blacksquare
 \]
 
 \end_inset
@@ -2197,84 +883,24 @@ R(U)=\underset{R(B)}{\underbrace{R(L_{B}U)}}=\underset{R(A)}{\underbrace{R(L_{A}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename ../pasted1.png
+\begin_inset Formula 
+\[
+\xl HA\xl HA=(I-\xl PA)(I-\xl PA)=I-2\xl PA+\xl PA\xl PA\underset{\xl PA\xl PA=\xl PA}{\underbrace{=}}I-\xl PA\ \blacksquare
+\]
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-
-\color blue
-הטענה נכונה, נראה כי המטריצה סימטרית ולכן אם עמודותיה בת
-\begin_inset Quotes erd
-\end_inset
-
-ל היא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-PD
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-על פי משפט שראינו בהרצאה.
- היא הפיכה )כי מכפלת הפיכות וטרנספוס גם הפיך( ולכן דרגתה מלאה, כלומר עמודותיה
- בת
-\begin_inset Quotes erd
-\end_inset
-
-ל.
+\begin_layout Section*
+ה
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-(A^{T}A)^{T}=A^{T}(A^{T})^{T}=A^{T}A
+A=[\xl M{1\ }\xl M2]
 \]
 
 \end_inset
@@ -2283,8 +909,11 @@ PD
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename ../pasted2.png
+נשים לב כי:
+\begin_inset Formula 
+\[
+[\xl PA\xl M{1\ }\xl{\xl PAM}2]=\xl PA[\xl M{1\ }\xl M2]=\xl PAA\underset{\text{סעיף ג}}{\underbrace{=}}A=[\xl M{1\ }\xl M2]\Rightarrow\underset{(1)}{\underbrace{\xl{\xl PAM}2=\xl M2}}
+\]
 
 \end_inset
 
@@ -2292,305 +921,25 @@ PD
 \end_layout
 
 \begin_layout Standard
-
-\color blue
-הטענה אינה נכונה, כפי שראינו בהרצאה:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../pasted3.png
-	scale 70
+\begin_inset Formula 
+\begin{align*}
+\xl P{\xl M2}\xl PA & =\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{\xl M2}\xl PA=\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xt{\xl PA}\xl M2)}\\
+\underset{\xt{\xl PA}=\xl PA}{\underbrace{=}} & \xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xl PA\xl M2)}\underset{(1)}{\underbrace{=}}\xl M2(\xt{\xl M2}\xl M2)^{-1}\xt{(\xl M2)}=\xl P{\xl M2}
+\end{align*}
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename ../pasted4.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color blue
-הטענה נכונה, נגדיר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-x=
-\begin_inset Formula $\begin{pmatrix}a_{1}\\
-a_{2}\\
-...\\
-a_{m}\\
-a_{m+1}\\
-a_{m+2}\\
-...\\
-a_{p}
-\end{pmatrix}$
-\end_inset
-
-
-\lang hebrew
-, כאשר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-m
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-מספר השורות של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-A
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
+\begin_layout Section*
 ו
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-p-m
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-מספר השורות של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\lang english
-B
-\lang hebrew
-.
- ממכפלת בלוקים ומכך ש
-\lang english
-A,B
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-חיוביות מוגדרות כל אחת בפני עצמה נקבל כי גם המטריצה הנ
-\begin_inset Quotes erd
-\end_inset
+\end_layout
 
-ל חיובית מוגדרת: 
+\begin_layout Standard
 \begin_inset Formula 
 \[
-x^{T}\begin{pmatrix}A & 0\\
-0 & B
-\end{pmatrix}x=\begin{pmatrix}\underset{Transpose}{\underbrace{\begin{pmatrix}a_{1}\\
-a_{2}\\
-...\\
-a_{m}
-\end{pmatrix}}}A\begin{pmatrix}a_{1}\\
-a_{2}\\
-...\\
-a_{m}
-\end{pmatrix}\\
-\underset{Transpose}{\underbrace{\begin{pmatrix}a_{m+1}\\
-a_{m+2}\\
-...\\
-a_{p}
-\end{pmatrix}}}B\begin{pmatrix}a_{m+1}\\
-a_{m+2}\\
-...\\
-a_{p}
-\end{pmatrix}
-\end{pmatrix}
+\xl H{\xl M2}\xl HA=(I-\xl P{\xl M2})(I-\xl PA)=I-\xl PA-\xl P{\xl M2}+\underset{\xl P{\xl M2}}{\underbrace{\xl P{\xl M2}\xl PA}}=I-\xl PA=\xl HA
 \]
 
 \end_inset
@@ -2611,667 +960,21 @@ a_{p}
 Question 5
 \end_layout
 
-\begin_layout Standard
-
-\lang english
-A = 
-\begin_inset Formula $\begin{pmatrix}a & 0 & -2\\
-0 & a & 2\\
--2 & 2 & a
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2} & u_{1,3}\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-l_{2,1} & 1 & 0\\
-l_{3,1} & l_{3,2} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}a & 0 & -2\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}=\begin{pmatrix}1 & 0 & 0\\
-0 & 1 & 0\\
--\frac{2}{a} & l_{3,2} & 1
-\end{pmatrix}\begin{pmatrix}a & 0 & -2\\
-0 & u_{2,2} & u_{2,3}\\
-0 & 0 & u_{3,3}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-L
-\begin_inset Formula $_{3}U_{3}=$
-\end_inset
-
-A
-\begin_inset Formula $_{3}-l_{2}u_{2}^{T}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}a & 2\\
-2 & a
-\end{pmatrix}-$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}0\\
--\frac{2}{a}
-\end{pmatrix}\begin{pmatrix}0 & -2\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}a & 2\\
-2 & a
-\end{pmatrix}-\begin{pmatrix}0 & 0\\
-0 & \frac{4}{a}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}a & 2\\
-2 & a-\frac{4}{a}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-=
-\begin_inset Formula $\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}u_{1,1} & u_{1,2}\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}\begin{pmatrix}a & 2\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-\frac{2}{a} & 1
-\end{pmatrix}\begin{pmatrix}a & 2\\
-0 & u_{2,2}
-\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-L
-\begin_inset Formula $_{4}U_{4}=$
-\end_inset
-
-A
-\begin_inset Formula $_{4}-l_{3}u_{3}^{T}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}a-\frac{4}{a}\end{pmatrix}-$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}\frac{2}{a}\cdot2\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\begin{pmatrix}a-\frac{8}{a}\end{pmatrix}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-A = 
-\begin_inset Formula $\begin{pmatrix}1 & 0 & 0\\
-0 & 1 & 0\\
--\frac{2}{a} & \frac{2}{a} & 1
-\end{pmatrix}\begin{pmatrix}a & 0 & -2\\
-0 & a & 2\\
-0 & 0 & a-\frac{8}{a}
-\end{pmatrix}$
-\end_inset
-
-=
-\begin_inset Formula $\underset{L}{\underbrace{\begin{pmatrix}1 & 0 & 0\\
-0 & 1 & 0\\
--\frac{2}{a} & \frac{2}{a} & 1
-\end{pmatrix}}}\underset{D}{\underbrace{\begin{pmatrix}a & 0 & 0\\
-0 & a & 0\\
-0 & 0 & a-\frac{8}{a}
-\end{pmatrix}}}\underset{L^{T}}{\underbrace{\begin{pmatrix}1 & 0 & -\frac{2}{a}\\
-0 & 1 & \frac{2}{a}\\
-0 & 0 & 1
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-על מנת שהמטריצה תהיה חיובית מוגדרת האיברים על האלסון צריכים להיות חיוביים
- ולכן כבר תנאי ראשון:
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-a>0
-\end_layout
-
-\begin_layout Standard
-נסתכל כעת על האיבר האחרון במטריצה האלכסונית:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-a-\frac{8}{a}>0
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\begin{equation}
-a^{2}-8>0
-\end{equation}
-
-\end_inset
-
-
-\begin_inset Formula 
-\begin{equation}
-\boxed{a>\sqrt[2]{8}}
-\end{equation}
-
-\end_inset
-
-
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part*
-
-\lang english
-Question 6
-\end_layout
-
 \begin_layout Section*
-סעיף
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
+
 \numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 1
-\end_layout
-
-\begin_layout Standard
-הכפלת המטריצות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-A
-\begin_inset Formula $^{T}$
-\end_inset
-
-A
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- תיקח 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset Formula $n^{3}$
-\end_inset
-
- פעולות.
- לאחר מכן פירוק צולסקי הוא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-
-\begin_inset Formula $\frac{n^{3}}{6}$
-\end_inset
-
-
-\lang hebrew
-פעולות ולאחר מכן עוד
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-n
-\begin_inset Formula $^{2}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-פעולות עבור החלפה קדמית ואחורית.
-\end_layout
-
-\begin_layout Section*
-סעיף
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\end_layout
-
-\begin_layout Standard
-המטריצה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-A
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-רגילה ולכן קיים לה פירוק
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-LU
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-נחשב אותו ע
-\begin_inset Quotes erd
-\end_inset
-
-ׁי
-\lang english
-
-\begin_inset Formula $\frac{n^{3}}{3}$
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-פעולות.
- לאחר מכן נקבל
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-A^{T}A=(LU)^{T}LU=U^{T}L^{T}LU
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-כעת נבצע פעמיים גם החלפה קדמית וגם החלפה אחורית בסך של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
 \numeric off
-\lang english
-n
-\begin_inset Formula $^{2}$
-\end_inset
+.
+\end_layout
 
+\begin_layout Subsection*
+א.
+ 
+\end_layout
 
+\begin_layout Standard
+בקוד המקורי אנו בחרנו
 \family roman
 \series medium
 \shape up
@@ -3284,130 +987,696 @@ n
 \uwave off
 \noun off
 \color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של ספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\numeric on
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של הספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועליהן אימנו את המסווג.
+ כעת בחרנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של הספרה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועוד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4000
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות שמכילות ספרות שאינן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ועליהן אימנו את המסווג.
+\end_layout
+
+\begin_layout Standard
+שינויים בקוד:
+\end_layout
+
+\begin_layout Itemize
+מחיקת הפרמטר המיוטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+digit2
 \lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-פעולות ובכך השגנו סיבוכיות טובה יותר.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part*
-
-\lang english
-Question 7
-\end_layout
-
-\begin_layout Section*
-סעיף
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\end_layout
-
-\begin_layout Standard
-
-\lang english
-A = 
-\begin_inset Formula $\begin{pmatrix}10^{-20} & 1\\
-1 & 1
-\end{pmatrix}=$
-\end_inset
-
-
-\begin_inset Formula $\begin{pmatrix}1 & 0\\
-l_{2,1} & 1
-\end{pmatrix}\begin{pmatrix}u_{1,1} & u_{1,2}\\
-0 & u_{2,2}
-\end{pmatrix}=\begin{pmatrix}1 & 0\\
-10^{20} & 1
-\end{pmatrix}\begin{pmatrix}10^{-20} & 1\\
-0 & u_{2,2}
-\end{pmatrix}\underset{u_{2,2}=a_{2,2}-11\cdot10^{20}}{\underbrace{=}}\underset{L}{\underbrace{\begin{pmatrix}1 & 0\\
-10^{20} & 1
-\end{pmatrix}}}\underset{U}{\underbrace{\begin{pmatrix}10^{-20} & 1\\
-0 & 1-1\cdot10^{20}
-\end{pmatrix}}}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-סעיף
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ../../../../../../Documents/pasted6.png
-	scale 60
+	filename images/5.1.1.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+בבחירת שאר התמונת שינינו את התנאי כך שהן שונות מהספרה הראשונה )
+\numeric on
+0
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.2.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+הכנסנו להערה את הקוד שאמור להדפיס
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות מהסטים שאנו מאמנים לפיהן.
+ ושינינו גם את הקוד כך שבסוף ידפיס רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות של שגיאה.
+\end_layout
+
+\begin_layout Subsection*
+ב.
+\end_layout
+
+\begin_layout Standard
+בקבוצת האימון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+37
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ובקבוצת המבדק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+142
+\numeric off
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.2.2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ג.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.1.3.png
+	scale 50
 
 \end_inset
 
@@ -3415,11 +1684,673 @@ l_{2,1} & 1
 \end_layout
 
 \begin_layout Section*
-סעיף
-\family roman
+
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Section*
+א.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 0.
+ Accuracy=99.075% (
 \series bold
+37
+\series default
+ wrong examples) Test Error: Classifier on digit: 0.
+ Accuracy=96.45% (
+\series bold
+142
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 1.
+ Accuracy=98.325% (
+\series bold
+67
+\series default
+ wrong examples) Test Error: Classifier on digit: 1.
+ Accuracy=95.675% (
+\series bold
+173
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 2.
+ Accuracy=95.325% (
+\series bold
+187
+\series default
+ wrong examples) Test Error: Classifier on digit: 2.
+ Accuracy=91.75% (
+\series bold
+330
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 3.
+ Accuracy=95.2% (
+\series bold
+192
+\series default
+ wrong examples) Test Error: Classifier on digit: 3.
+ Accuracy=91.5% (
+\series bold
+340
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 4.
+ Accuracy=96.875% (
+\series bold
+125
+\series default
+ wrong examples) Test Error: Classifier on digit: 4.
+ Accuracy=94.1% (
+\series bold
+236
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 5.
+ Accuracy=95.825% (
+\series bold
+167
+\series default
+ wrong examples) Test Error: Classifier on digit: 5.
+ Accuracy=90.25% (
+\series bold
+390
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 6.
+ Accuracy=98.05% (
+\series bold
+78
+\series default
+ wrong examples) Test Error: Classifier on digit: 6.
+ Accuracy=95.475% (
+\series bold
+181
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 7.
+ Accuracy=97.45% (
+\series bold
+102
+\series default
+ wrong examples) Test Error: Classifier on digit: 7.
+ Accuracy=94.1% (
+\series bold
+236
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 8.
+ Accuracy=92.675% (
+\series bold
+293
+\series default
+ wrong examples) Test Error: Classifier on digit: 8.
+ Accuracy=89.15% (
+\series bold
+434
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Train Error: Classifier on digit: 9.
+ Accuracy=94.325% (
+\series bold
+227
+\series default
+ wrong examples) Test Error: Classifier on digit: 9.
+ Accuracy=89.925% (
+\series bold
+403
+\series default
+ wrong examples)
+\end_layout
+
+\begin_layout Section*
+ב.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/5.2.1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+הדרך שאנו מציעים היא לבנות היסטוגרמה )מטריצה של 
+\begin_inset Formula $10000x10$
+\end_inset
+
+( לכל תמונה
+\family roman
+\series medium
 \shape up
-\size larger
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)מתוך ה-
+\numeric on
+10000
+\numeric off
+( 
+\numeric on
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אופציות של ספרות אפשרויות.
+ כזכור נשתמש ב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המסווגים מסעיף ב.
+ נכפיל את המטריצה 
+\begin_inset Formula $A_{newtest}$
+\end_inset
+
+באחד אחד מהמסווגים, נקבל ווקטור שנפעיל עליו את הפעולות 
+\begin_inset Formula $sign$
+\end_inset
+
+.
+ כעת לכל אינדקס שבו יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עבור מספר מסווג כלשהו(, נסמן בהיסטוגרמה עבור האינדקס )שמייצג תמונה( ובעמודה
+ של הספרה שהמסווג מציין.
+ לאחר מכן נעבור על ההיסטוגרמה ולכל תמונה אם יש רק עמודה אחת בה יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אז אנו יודעים לאיזו ספרה צריך לסווג את התמונה הזו.
+\end_layout
+
+\begin_layout Subsection*
+א.
+ 
+\end_layout
+
+\begin_layout Standard
+יש לנו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5060
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמונות )
+\numeric on
+50
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחוזים( שלא קיבלנו לגביהן תשובה חד משמעית.
+ 
+\end_layout
+
+\begin_layout Standard
+הדרך שנציע לפתרון.
+ ניצור מטריצה של 
+\begin_inset Formula $785x10x10$
+\end_inset
+
+ אשר מייצגת לכל 
+\begin_inset Formula $i,j$
+\end_inset
+
+ וקטור עמודה שהוא המסווג בין שני המספרים.
+\end_layout
+
+\begin_layout Standard
+כעת עבור כל תמונה שבהיסטוגרמה שלה נראה שיש לה בעמודות שמייצגות את הספרות
+ כמה אופציות לייצוג, נשווה לפי מסווג בין ספרה לספרה )כפי שהוצג בתרגול וכזכור
+ עם דיוק גבוה יותר( נעבור עבור כל שתי אופציות אפשריות עד שנישאר עם אחת בודדת
+ שהיא הנכונה.
+\end_layout
+
+\begin_layout Subsection*
+ב.
+ 
+\end_layout
+
+\begin_layout Standard
+בדרך החדשה זיהינו לא נכון רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אחוזים )כאלף תמונות מתוך עשרת האלפים( [אשר מתוכן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+85
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בכלל לא סווגו במסווג הראשוני של קדם סעיף
+\family roman
+\series medium
+\shape up
+\size normal
 \emph off
 \bar no
 \strikeout off
@@ -3443,351 +2374,47 @@ l_{2,1} & 1
 \noun default
 \color inherit
 3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לאף ספרה].
 \end_layout
 
-\begin_layout Standard
-נשים לב שבמטריצה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-L
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-אין הבדל.
- במטריצה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-U
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-יש הבדל באיבר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-u
-\begin_inset Formula $_{2,2}$
-\end_inset
-
-
-\lang hebrew
-, בפירוק של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-MatLab
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- הוא קטן באחד מאשר בפירוק הידני.
- שגיאה זו קרתה עקב המגבלת ייצוג של ספרות בחישוב האנליטי של המחשב.
-\end_layout
-
-\begin_layout Section*
-סעיף
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\end_layout
-
-\begin_layout Standard
-דני צודק ויוסי טועה.
- כאשר נבחר איבר ציר קטן מהשאר באופן משמעותי, במהלך החילוק באיבר הציר אנו
- מנפחים את השגיאה הנומרית ובכך עלולים לגרום לשינוי משמעותי ביחס לערכים האמיתיים.
- לכן ישנו יתרון לבחירת איבר ציר גדול ביותר בחישוב במחשב.
+\begin_layout Subsection*
+ג.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename ../../../../../../Documents/pasted7.png
-	scale 70
+	filename images/5.3.1.png
+	scale 50
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-נשים לב כי כעת לאחר הפרמוטציה של החלפת השורות של
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-A
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ניתן לראות שהפירוק יצא מדויק מכיוון שכל האיברים יצאו שווים במטריצות שחושבו
- ע
-\begin_inset Quotes erd
-\end_inset
-
-ׁי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-MatLab
-\lang hebrew
-:
-\lang english
- PA=LU
-\lang hebrew
-.
- תוצאה זו התקבלה מאחר ובחרנו באיבר הציר הגדול יותר )
-\numeric on
-1
-\numeric off
-( מאשר )
-\numeric on
-10
-\begin_inset Formula $^{-20}$
-\end_inset
-
-
-\numeric off
-(.
 \end_layout
 
 \end_body

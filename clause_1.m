@@ -16,7 +16,7 @@ load('mnist.mat');
 % ----------------------------------------------------------------
 
 imagesPerDigit1 = training.images(:,:,training.labels == digit1);
-imagesPerDigit2 = training.images(:,:,training.labels ~= digit1); % 1111
+imagesPerDigit2 = training.images(:,:,training.labels ~= digit1); 
 
 % We have been instructed not to print unnecessary photos.
 % figure(1); 
